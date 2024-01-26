@@ -1,0 +1,58 @@
+﻿/* Add the following code snippet for card hover effect */
+.card-columns .card {
+    transition: transform 0.3s ease-in-out;
+}
+
+    .card-columns .card:hover {
+        transform: scale(1.1);
+        box-shadow: 0 10px 20px rgba(37,33,82,.12), 0 4px 8px rgba(37,33,82,.06);
+    }
+
+/* Remove unnecessary code */
+
+html {
+    font-size: 14px;
+}
+
+.fa-star {
+    cursor: pointer;
+}
+
+a.navbar-brand {
+    white-space: normal;
+    font-family: 'Yellowtail', cursive;
+    font-size: xx-large;
+    text-align: center;
+    word-break: break-all;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+p, h1, ul {
+    font-family: 'Nunito', sans-serif;
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.bg-navbar {
+    background: -webkit-linear-gradient(110deg, #a0c6e8 60%, #bfbfbf 60%);
+    background: -o-linear-gradient(110deg, #a0c6e8 60%, #bfbfbf 60%);
+    background: -moz-linear-gradient(110deg, #a0c6e8 60%, #bfbfbf 60%);
+    background: linear-gradient(110deg, #a0c6e8 60%, #bfbfbf 60%);
+}
