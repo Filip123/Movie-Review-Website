@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/filiphjertkvist/Desktop/repos/MovieReview/MovieReview/MovieReview.csproj": {}
+    "/Users/filiphjertkvist/Desktop/repos/MovieReview/Movie-Review-Website/MovieReview/MovieReview.csproj": {}
   },
   "projects": {
-    "/Users/filiphjertkvist/Desktop/repos/MovieReview/MovieReview/MovieReview.csproj": {
+    "/Users/filiphjertkvist/Desktop/repos/MovieReview/Movie-Review-Website/MovieReview/MovieReview.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/filiphjertkvist/Desktop/repos/MovieReview/MovieReview/MovieReview.csproj",
+        "projectUniqueName": "/Users/filiphjertkvist/Desktop/repos/MovieReview/Movie-Review-Website/MovieReview/MovieReview.csproj",
         "projectName": "MovieReview",
-        "projectPath": "/Users/filiphjertkvist/Desktop/repos/MovieReview/MovieReview/MovieReview.csproj",
+        "projectPath": "/Users/filiphjertkvist/Desktop/repos/MovieReview/Movie-Review-Website/MovieReview/MovieReview.csproj",
         "packagesPath": "/Users/filiphjertkvist/.nuget/packages/",
-        "outputPath": "/Users/filiphjertkvist/Desktop/repos/MovieReview/MovieReview/obj/",
+        "outputPath": "/Users/filiphjertkvist/Desktop/repos/MovieReview/Movie-Review-Website/MovieReview/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/filiphjertkvist/.nuget/NuGet/NuGet.Config"
@@ -21,6 +21,7 @@
         ],
         "sources": {
           "/usr/local/share/dotnet/library-packs": {},
+          "/usr/local/share/dotnet/sdk/7.0.311/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,20 +56,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.15, 7.0.15]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.osx-arm64",
-              "version": "[7.0.15, 7.0.15]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.15, 7.0.15]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -77,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
         }
       }
     }

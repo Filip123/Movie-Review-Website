@@ -9,37 +9,37 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MovieReview
 build_property.RootNamespace = MovieReview
-build_property.ProjectDir = /Users/filiphjertkvist/Desktop/repos/MovieReview/MovieReview/
+build_property.ProjectDir = /Users/filiphjertkvist/Desktop/repos/MovieReview/Movie-Review-Website/MovieReview/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/filiphjertkvist/Desktop/repos/MovieReview/MovieReview
+build_property.MSBuildProjectDirectory = /Users/filiphjertkvist/Desktop/repos/MovieReview/Movie-Review-Website/MovieReview
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/filiphjertkvist/Desktop/repos/MovieReview/MovieReview/Pages/Error.cshtml]
+[/Users/filiphjertkvist/Desktop/repos/MovieReview/Movie-Review-Website/MovieReview/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/filiphjertkvist/Desktop/repos/MovieReview/MovieReview/Pages/Index.cshtml]
+[/Users/filiphjertkvist/Desktop/repos/MovieReview/Movie-Review-Website/MovieReview/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/filiphjertkvist/Desktop/repos/MovieReview/MovieReview/Pages/Privacy.cshtml]
+[/Users/filiphjertkvist/Desktop/repos/MovieReview/Movie-Review-Website/MovieReview/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/filiphjertkvist/Desktop/repos/MovieReview/MovieReview/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/filiphjertkvist/Desktop/repos/MovieReview/Movie-Review-Website/MovieReview/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/filiphjertkvist/Desktop/repos/MovieReview/MovieReview/Pages/_ViewImports.cshtml]
+[/Users/filiphjertkvist/Desktop/repos/MovieReview/Movie-Review-Website/MovieReview/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/filiphjertkvist/Desktop/repos/MovieReview/MovieReview/Pages/_ViewStart.cshtml]
+[/Users/filiphjertkvist/Desktop/repos/MovieReview/Movie-Review-Website/MovieReview/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/filiphjertkvist/Desktop/repos/MovieReview/MovieReview/Pages/Shared/_Layout.cshtml]
+[/Users/filiphjertkvist/Desktop/repos/MovieReview/Movie-Review-Website/MovieReview/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-l6i5e43qp1

@@ -11,6 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddTransient<JsonFileMovieService>();
+builder.Services.AddControllers();
 
 var app = builder.Build();
 
@@ -32,16 +33,17 @@ app.UseAuthorization();
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapRazorPages();
-    endpoints.MapGet("/movies", (context) =>
-    {
-        var movieService = app.Services.GetService<JsonFileMovieService>();
-        var movies = movieService.GetMovies();
+    endpoints.MapControllers();
+    //endpoints.MapGet("/movies", (context) =>
+    //{
+    //    var movieService = app.Services.GetService<JsonFileMovieService>();
+    //    var movies = movieService.GetMovies();
 
-        var json = JsonSerializer.Serialize<IEnumerable<Movie>>(movies);
+    //    var json = JsonSerializer.Serialize<IEnumerable<Movie>>(movies);
 
-        return context.Response.WriteAsync(json);
+    //    return context.Response.WriteAsync(json);
 
-    });
+    //});
 });
 
 app.Run();

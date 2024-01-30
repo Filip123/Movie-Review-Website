@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kYlLfuo8fHarVR0dmARB5KfIHqkCdQ1RSk5QMDBWjIZPN4AmLSdA0vVJZlU9PH6h51pZa67yZbrLaMYVam8n5w==",
+  "dgSpecHash": "BRT1vz4GgnPcwQF5yvn8gVJV0yZmPrXyGkIY5+fC7rl43M/bhKKLcfNdoz5lsGrwMT+DWwL4b646aQFcOLLoxw==",
   "success": true,
-  "projectFilePath": "/Users/filiphjertkvist/Desktop/repos/MovieReview/MovieReview/MovieReview.csproj",
+  "projectFilePath": "/Users/filiphjertkvist/Desktop/repos/MovieReview/Movie-Review-Website/MovieReview/MovieReview.csproj",
   "expectedPackageFiles": [
     "/Users/filiphjertkvist/.nuget/packages/humanizer/2.14.1/humanizer.2.14.1.nupkg.sha512",
     "/Users/filiphjertkvist/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
@@ -190,10 +190,7 @@
     "/Users/filiphjertkvist/.nuget/packages/system.threading.timer/4.3.0/system.threading.timer.4.3.0.nupkg.sha512",
     "/Users/filiphjertkvist/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512",
     "/Users/filiphjertkvist/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "/Users/filiphjertkvist/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512",
-    "/Users/filiphjertkvist/.nuget/packages/microsoft.netcore.app.ref/7.0.15/microsoft.netcore.app.ref.7.0.15.nupkg.sha512",
-    "/Users/filiphjertkvist/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.15/microsoft.aspnetcore.app.ref.7.0.15.nupkg.sha512",
-    "/Users/filiphjertkvist/.nuget/packages/microsoft.netcore.app.host.osx-arm64/7.0.15/microsoft.netcore.app.host.osx-arm64.7.0.15.nupkg.sha512"
+    "/Users/filiphjertkvist/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }
