@@ -1,26 +1,29 @@
-﻿[
+[
   {
-    "id": 0,
-    "name": "The Big Short",
-    "year": "2015",
-    "rating": 8
+    "Id": "0",
+    "Name": "The Big Short",
+    "Year": "2015",
+    "Ratings": null
   },
   {
-    "id": 1,
-    "name": "Interstellar",
-    "year": "2014",
-    "rating": 10
+    "Id": "1",
+    "Name": "Interstellar",
+    "Year": "2014",
+    "Ratings": [
+      8,
+      9
+    ]
   },
   {
-    "id": 2,
-    "name": "Die Hard",
-    "year": "1988",
-    "rating": 10
+    "Id": "2",
+    "Name": "Die Hard",
+    "Year": "1988",
+    "Ratings": null
   },
   {
-    "id": 3,
-    "name": "Die Hard 2",
-    "year": "1990",
-    "rating": 8
+    "Id": "3",
+    "Name": "Die Hard 2",
+    "Year": "1990",
+    "Ratings": null
   }
 ]

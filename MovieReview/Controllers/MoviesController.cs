@@ -26,5 +26,16 @@ namespace MovieReview.Controllers
         {
             return MovieService.GetMovies();
         }
+
+        //[HttpPatch] "FromBody"
+        [Route("Rate")]
+        [HttpGet]
+        public ActionResult Get([FromQuery] string MovieId, [FromQuery] int Rating)
+        {
+            MovieService.AddRating(MovieId, Rating);
+
+            return Ok();
+
+        }
     }
 }

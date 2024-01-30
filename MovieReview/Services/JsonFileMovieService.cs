@@ -12,7 +12,7 @@ namespace MovieReview.Services
 			WebHostEnvironment = webHostEnvironment;
 		}
 
-		public IWebHostEnvironment WebHostEnvironment{get;}
+		public IWebHostEnvironment WebHostEnvironment { get; }
 
 		private string JsonFileName
 		{
@@ -25,12 +25,46 @@ namespace MovieReview.Services
 			{
 				return JsonSerializer.Deserialize<Movie[]>(jsonFileReader.ReadToEnd(),
 					new JsonSerializerOptions
-                    {
+					{
 						PropertyNameCaseInsensitive = true
 					});
 			}
-        }
-	}
+		}
 
+		public void AddRating(String movieId, int rating)
+		{
+			var movies = GetMovies();
+
+			var query = movies.First(x => x.Id == movieId);
+
+			if (query.Ratings == null)
+			{
+				//Create new raings array with rating in
+				query.Ratings = new int[] { rating };
+			}
+			else
+			{
+				var tempRatings = query.Ratings.ToList();
+				tempRatings.Add(rating);
+				query.Ratings = tempRatings.ToArray();
+
+			}
+
+			//Serialize raings and add to json file
+
+			using (var outputStream = File.OpenWrite(JsonFileName))
+			{
+				JsonSerializer.Serialize<IEnumerable<Movie>>(
+					new Utf8JsonWriter(outputStream, new JsonWriterOptions
+					{
+						SkipValidation = true,
+						Indented = true
+					}),
+					movies
+					);
+			}
+		}
+
+	}
 }
 

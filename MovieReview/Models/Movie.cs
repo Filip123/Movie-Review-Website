@@ -5,11 +5,10 @@ namespace MovieReview.Models
 {
 	public class Movie
 	{
-		public int Id { get; set; }
-
+		public String Id { get; set; } 
 		public String Name { get; set; }
 		public String Year { get; set; }
-		public int Rating { get; set; }
+		public int[] Ratings { get; set; }
 
 
         public override string ToString() => JsonSerializer.Serialize<Movie>(this);
