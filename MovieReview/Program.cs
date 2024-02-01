@@ -12,6 +12,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddTransient<JsonFileMovieService>();
 builder.Services.AddControllers();
+builder.Services.AddServerSideBlazor();
 
 var app = builder.Build();
 
@@ -34,6 +35,7 @@ app.UseEndpoints(endpoints =>
 {
     endpoints.MapRazorPages();
     endpoints.MapControllers();
+    endpoints.MapBlazorHub();
     //endpoints.MapGet("/movies", (context) =>
     //{
     //    var movieService = app.Services.GetService<JsonFileMovieService>();

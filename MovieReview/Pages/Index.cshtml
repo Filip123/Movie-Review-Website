@@ -1,23 +1,21 @@
 ﻿@page
 @model IndexModel
+@using MovieReview.Components;
+
 @{
+
     ViewData["Title"] = "Home page";
 }
 
 <div class="text-center">
     <h1 class="display-4">Filip Movie Review</h1>
     <p>Lets rate movies :)</p>
+    <a href="https://www.imdb.com/">Other worse movie rating cite </a>
+    <img src="" + Intersetellar.jpg" alt="Test Image"/>
+
 </div>
 
-<div class="card-column">
-    @foreach (var movie in Model.Movies)
-    {
+@(await Html.RenderComponentAsync<MovieList>(RenderMode.ServerPrerendered));
 
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">@movie.Name</h5>
-            </div>
-        </div>
-        
-    }
-</div>
+<script src ="_framework/blazor.server.js"></script>;
+

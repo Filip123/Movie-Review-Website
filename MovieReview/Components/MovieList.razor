@@ -1,0 +1,28 @@
+﻿@using Microsoft.AspNetCore.Components.Web
+@using MovieReview.Models
+@using MovieReview.Services
+@inject JsonFileMovieService MovieService
+
+
+<div class="card-column">
+    @foreach (var movie in MovieService.GetMovies())
+    {
+
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">@movie.Name</h5>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">
+                    <button>More Info</button>
+                </small>
+            </div>
+        </div>
+
+    }
+</div>
+
+@code {
+
+}
+

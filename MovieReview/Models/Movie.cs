@@ -8,6 +8,7 @@ namespace MovieReview.Models
 		public String Id { get; set; } 
 		public String Name { get; set; }
 		public String Year { get; set; }
+		public String Img { get; set; }
 		public int[] Ratings { get; set; }
 
 

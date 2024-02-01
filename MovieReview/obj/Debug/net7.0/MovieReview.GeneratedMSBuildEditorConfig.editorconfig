@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/filiphjertkvist/Desktop/repos/MovieReview/Movie-Review-Website/MovieReview
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/filiphjertkvist/Desktop/repos/MovieReview/Movie-Review-Website/MovieReview/Components/MovieList.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Nb3ZpZUxpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/filiphjertkvist/Desktop/repos/MovieReview/Movie-Review-Website/MovieReview/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
